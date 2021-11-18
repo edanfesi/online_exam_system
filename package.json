@@ -1,0 +1,39 @@
+{
+  "name": "online_exam_system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "cm": "git-cz",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edanfesi/online_exam_system.git"
+  },
+  "keywords": [],
+  "author": "Edward Fernandez (edanfesi@gmail.com), Elsa Portilla (elsa.portilla@gmail.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/edanfesi/online_exam_system/issues"
+  },
+  "homepage": "https://github.com/edanfesi/online_exam_system#readme",
+  "dependencies": {
+    "next": "^12.0.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "git-cz": "^4.8.0",
+    "husky": "^7.0.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "git-cz"
+    }
+  }
+}
